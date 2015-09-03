@@ -20,6 +20,7 @@
 #define Motors_h
 
 #include <Arduino.h>
+<<<<<<< HEAD
 #include "Utils.h"
 
 #define MOTOR_COUNT 4
@@ -28,6 +29,16 @@
 #define MOTOR_2_PIN 6
 #define MOTOR_3_PIN 9
 #define MOTOR_4_PIN 10
+=======
+#include <Utils.h>
+
+#define MOTOR_COUNT 4
+
+#define MOTOR_1_PIN 8
+#define MOTOR_2_PIN 7
+#define MOTOR_3_PIN 10
+#define MOTOR_4_PIN 11
+>>>>>>> c6bb006ebcdb340a127505696b3cc376d53ab65c
 
 #define MIN_MOTOR_SPEED_PWM 50
 #define MAX_MOTOR_SPEED_PWM 250

@@ -1,3 +1,5 @@
+In process of being modified to work with the Arduino Uno
+
 Code in progress to control a quadcopter on Arduino MEGA 2560.
 
 Motors: Turnigy  D2830-11 1000kv
