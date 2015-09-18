@@ -1,3 +1,6 @@
+#include <Filter.h>
+
+
 /*
   Filter.cpp - Low pass filter
   Created by Romain Goussault <romain.goussault@gmail.com>
@@ -17,7 +20,6 @@
   afloat with this program. If not, see <http://www.gnu.org/licenses/>. 
 */
 
-#include "Filter.h"
 
 Filter::Filter(){  
 inv_gain = 1/GAIN;

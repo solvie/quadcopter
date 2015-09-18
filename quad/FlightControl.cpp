@@ -16,8 +16,8 @@
   along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "FlightControl.h"
-#include "Radio.h"
+#include <FlightControl.h>
+#include <Radio.h>
 
 FlightControl::FlightControl()
 {

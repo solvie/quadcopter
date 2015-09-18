@@ -20,8 +20,8 @@
 	along with this program. If not, see <http://www.gnu.org/licenses/>. 
  */
 
-#include "Radio.h"
-#include "Utils.h"
+#include <Radio.h>
+#include <Utils.h>
 
 // Shared variables are updated by the ISR and read by loop.
 // In loop we immediatly take local copies so that the ISR can keep ownership of the

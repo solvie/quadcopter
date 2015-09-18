@@ -16,7 +16,7 @@
   afloat with this program. If not, see <http://www.gnu.org/licenses/>. 
 */
 
-#include "IMU.h"
+#include <IMU.h>
 
 
 IMU::IMU()

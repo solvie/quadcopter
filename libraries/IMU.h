@@ -19,11 +19,8 @@
 #define IMU_h
 
 #include <Arduino.h>
-<<<<<<< HEAD
 #include "Utils.h"
-=======
 #include <Utils.h>
->>>>>>> c6bb006ebcdb340a127505696b3cc376d53ab65c
 #include "I2Cdev.h"
 #include "MPU6050.h"
 #include "Kalman.h"

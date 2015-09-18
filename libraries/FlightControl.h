@@ -18,15 +18,9 @@
 #ifndef FlightControl_h
 #define FlightControl_h
 
-<<<<<<< HEAD
-#include "Utils.h"
-#include <math.h>
-#include "Motors.h"
-=======
-#include <Utils.h>
 #include <math.h>
 #include <Motors.h>
->>>>>>> c6bb006ebcdb340a127505696b3cc376d53ab65c
+#include <Utils.h>
 #include <Arduino.h>
 
 //motor1: first white, motor2 second white

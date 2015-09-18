@@ -27,21 +27,12 @@
 #define  PRINT_ALL_CHANNELS 0
 #define  RADIO_POWER_PIN   51
 
-<<<<<<< HEAD
 #define CH1_IN_PIN 2
 #define CH2_IN_PIN 4
 #define CH3_IN_PIN 7
 #define CH4_IN_PIN 8
 #define CH5_IN_PIN 12
 #define CH6_IN_PIN 13
-=======
-#define CH1_IN_PIN A12
-#define CH2_IN_PIN A14
-#define CH3_IN_PIN A15
-#define CH4_IN_PIN A10
-#define CH5_IN_PIN A13
-#define CH6_IN_PIN A11
->>>>>>> c6bb006ebcdb340a127505696b3cc376d53ab65c
 
 #define CH1_FLAG 1
 #define CH2_FLAG 2

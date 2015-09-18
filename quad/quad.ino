@@ -1,3 +1,6 @@
+
+
+
 /*
   Quad.ino - Code to control a quadcopter.
   Created by Romain Goussault <romain.goussault@gmail.com>
@@ -16,28 +19,21 @@
   afloat with this program. If not, see <http://www.gnu.org/licenses/>. 
 */
 
-<<<<<<< HEAD
-#include "PinChangeInt.h"
-#include <Servo.h>
-#include "Radio.h"
-=======
+#include <MPU6050.h>
+#include <I2Cdev.h>
+
+#include <Filter.h>
+#include <FlightControl.h>
+#include <IMU.h>
+#include <Kalman.h>
+#include <Motors.h>
 #include <PinChangeInt.h>
-#include <Servo.h>
 #include <Radio.h>
->>>>>>> c6bb006ebcdb340a127505696b3cc376d53ab65c
-//#include <Wire.h>
-#include "I2Cdev.h"
-#include "MPU6050.h"
-#include "Kalman.h" 
-#include "IMU.h" 
+#include <Utils.h>
 #include <stdlib.h>
-<<<<<<< HEAD
-#include "Utils.h"		
-=======
-#include <Utils.h>		
->>>>>>> c6bb006ebcdb340a127505696b3cc376d53ab65c
-#include "Motors.h"
-#include "FlightControl.h"  
+#include <Servo.h>
+
+#include <Math.h>
 
 #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
     #include "Wire.h"
@@ -205,10 +201,7 @@ void loop()
 	if (ch5_old==false && RadioChannels[5]==true && RadioChannels[1]==0 ) 
 	{
 		motorsOn = true;
-<<<<<<< HEAD
     Serial.print("motorsOn");
-=======
->>>>>>> c6bb006ebcdb340a127505696b3cc376d53ab65c
 	}
 	if (RadioChannels[5]==false || (motorsReadyOld==true  &&  motorsReady==false))
 	{
